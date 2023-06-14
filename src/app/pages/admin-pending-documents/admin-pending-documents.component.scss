@@ -1,0 +1,130 @@
+.link{
+    text-decoration: none;
+    color: black;
+    margin: 10px 15px;
+    border-bottom: 1px solid black;
+}
+.logo-holder{
+    margin: 10px 60px;
+}
+.avatar{
+    width: 40px;
+    height: 40px;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    border-bottom: 1px solid gray;
+}
+.links{
+    display: flex;
+}
+.user{
+    display: flex;
+    margin: 10px 70px;
+}
+.nav-section{
+    display: flex;
+    align-items: center;
+}
+.status{
+    display: flex;
+    align-items: center;
+}
+.image{
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+}
+.words-rejected{
+    margin: 0px !important;
+    color:#dc2627;
+}
+.words-pending{
+    margin: 0px !important;
+    color: #fbbf25;
+}
+.words-success{
+    margin: 0px !important;
+    color: #0d9f6e;
+}
+.table{
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width: fit-content;
+    padding: 30px;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+table tr{
+    margin: 20px;
+}
+table td{
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.action{
+    display: flex;
+}
+.accept{
+    border: 1px solid #0d9f6e;
+    color: #0d9f6e;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 5px 10px;
+}
+.reject{
+    border: 1px solid #dc2627;
+    color: #dc2627;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+
+
+
+/* Dropdown Button */
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    background-color: #fff;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
